@@ -1,0 +1,626 @@
+
+  body {
+    font-size: 18px; /* Texte plus grand */
+    line-height: 1.6;
+    padding: 20px;
+   
+    font-family: Arial, sans-serif;
+}
+
+
+
+h1{
+  
+  font-family: initial;
+  font-size: x-large;
+  
+    
+}
+h2{
+    font-size: 100%;
+    color: gray;
+}
+h4{
+  font: medium;
+  color: black;
+    
+}
+#gg h1{
+  color: #1a3bb3;
+  font-size: x-large;
+}
+#Category h1{
+  color: blue;
+  margin-right: 25%;
+}
+#filters {
+  display: flex;                  /* aligne les enfants en ligne */
+  align-items: center;           /* aligne verticalement les éléments */
+  justify-content: space-between;/* espace entre les blocs */
+  gap: 20px;    
+  font-size: x-large;   
+               
+}
+
+#limn, #product, #image {
+  display: flex;
+  align-items: center;           /* aligne image + texte dans chaque bloc */
+  gap: 8px;    
+  cursor: pointer;                  /* espace entre image et texte */
+}
+
+#limn img{
+  width: 35px;
+  height: 35px;
+}
+
+#image {
+  display: flex;              /* Aligne les éléments en ligne */
+       
+  gap: 20px;                  /* Espace entre les éléments */
+
+  padding: 15px;
+  border-radius: 20px;        
+
+}
+
+#image h5 {
+    background-color: blue;       /* gris initial */
+    color: yellow;                 /* couleur du texte */
+    padding: 8px 16px;            /* espace intérieur */
+    border-radius: 8px;           /* coins arrondis */
+    transition: background-color 0.3s ease; /* animation douce */
+}
+
+#image h5:hover {
+    background-color:yellow;      /* devient blanc au survol */
+    color: white;                  /* texte devient foncé pour contraste */
+}
+
+
+
+
+#image img {
+  width: 30px; 
+  height: 30px;               /* Ajuste la taille des images */
+  height: auto;
+  border-radius: 10px;        /* Coins arrondis pour les images */
+  object-fit: cover;
+}
+#lwla img{
+    width: 20px;
+    height: 20px;
+}
+#tanya img{
+  width: 20px;
+  height: 20px;
+}
+
+
+#talta img{
+  width: 20px;
+  height: 20px;
+}
+
+#lwla {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Crée un espace horizontal entre l’image et le texte */
+}
+#lwla h2{
+  color: black;
+}
+#tanya{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+#talta{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+ #lwst{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+
+ }
+
+ span{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+ }
+
+ #price{
+  margin-top: 2%;
+
+ }
+
+
+
+ input[type="range"] {
+  position: absolute;              /* Superpose les deux sliders (min et max) */
+  width: 20%;                     /* Le slider occupe toute la largeur du conteneur */
+  pointer-events: none;           /* Désactive les interactions pour éviter les conflits entre les deux sliders */
+  
+  background: transparent;        /* Rend le fond du slider invisible pour mieux personnaliser */
+}
+input[type="range"]::-webkit-slider-thumb {
+  pointer-events: all;            /* Réactive les interactions uniquement sur le curseur */
+  width: 16px;                    /* Largeur du curseur */
+  height: 16px;                   /* Hauteur du curseur */
+  border-radius: 50%;            /* Rend le curseur parfaitement rond */
+  background: rgb(0, 0, 192);              /* Couleur du curseur (gris foncé) */
+  cursor: pointer;               /* Change le curseur de la souris en main au survol */
+  -webkit-appearance: none;      /* Supprime le style par défaut du curseur */
+  position: relative;   /* nécessaire pour que z-index fonctionne */
+  z-index: 2;           /* met le curseur au-dessus de la barre */
+
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 6px;                    /* Épaisseur de la barre du slider */
+  background: blue;              /* Couleur de fond de la barre (gris clair) */
+  border-radius: 3px;            /* Coins arrondis pour un look plus doux */
+}
+
+.labels {
+  display: flex;
+  align-items: center;
+  gap: 140px;                       /* espace entre les deux spans */
+  
+}
+
+.labels h1{
+  margin-left: 2%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  
+}
+.labels h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+
+#size h1{
+  font-size: 150%;
+  margin-top: 15%;
+  color: #1a3bb3;
+}
+
+#uno {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  size: 200%;
+}
+#dos{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#tres{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#quatro{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#cinquo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#seise{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  size: large;
+}
+
+#uno img{
+  width: 20px;
+  height: 20px;
+}
+#dos img{
+  width: 20px;
+  height: 20px;
+}
+#tres img{
+  width: 20px;
+  height: 20px;
+}
+#quatro img{
+  width: 20px;
+  height: 20px;
+}
+#cinquo img{
+  width: 20px;
+  height: 20px;
+}
+#seise img{
+  width: 20px;
+  height: 20px;
+  
+}
+
+#uno h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+#dos h2{
+  color: black;
+}
+#seize h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+#kolchi{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: black;
+  
+
+}
+
+.cercle {
+  width: 30px;            
+  height: 30px;           
+  background-color: black;  
+  border-radius: 50%;      
+}
+.cercle2 {
+  width: 30px;            
+  height: 30px;           
+  background-color: white;  
+  border-radius: 50%;      
+  border: 2px solid #ccc;  /* cadre gris clair autour du cercle */
+}
+.cercle3 {
+  width: 30px;            
+  height: 30px;           
+  background-color: rgb(154, 154, 168);  
+  border-radius: 50%;      
+}
+.cercle4 {
+  width: 30px;            
+  height: 30px;           
+  background-color: red;  
+  border-radius: 50%;      
+}
+.cercle5 {
+  width: 30px;            
+  height: 30px;           
+  background-color: green;  
+  border-radius: 50%;      
+}
+.cercle6 {
+  width: 30px;            
+  height: 30px;           
+  background-color: yellow;  
+  border-radius: 50%;      
+}
+#dwira{
+  display: flex;
+
+  gap: 6px;
+
+}
+
+
+
+#clear button {
+  background-color: blue; /* couleur de base */
+  color: white;
+  border: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 15px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#clear button:hover {
+  background-color: yellow; /* couleur au survol */
+}
+#clear{
+  margin-top: 10%;
+  
+}
+
+#tt img {
+  width: 280px;         /* largeur réduite */
+  height: 280px;        /* conserve les proportions */
+  border-radius:10px;  /* optionnel : coins arrondis */
+  margin: 4px;         /* petit espace entre les images */
+}
+
+.img1{
+    height: 70px;
+    width: 70px;
+}
+.partiegauche h1{
+    color: #1a3bb3;
+    font-family: unset;
+    cursor: pointer;
+}
+.partiegauche{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+#partiegauche img{
+  width: 30px;
+  height: 30px;
+}
+.partiecentre{
+    color: blue;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.partie1{
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+  padding: 10px 30px;
+  margin-left: -140px;
+}
+.b1 {
+    color: #1a3bb3; 
+    background-color: white; 
+    border: 2px solid #f8d900;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 6px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+ 
+  .b1:hover {
+    background-color: #f8d900; 
+    color: white; 
+  }
+  .partiecentre a {
+    position: relative;
+    color: #1a3bb3; 
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  
+  .partiecentre a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 0%;
+    height: 4px;
+    background-color: #f8d900; 
+    border-radius: 2px;
+    transition: width 0.3s ease;
+  }
+ 
+
+
+
+#tt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 150px;
+  
+}
+
+#jj, #jh, #jk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px; /* largeur fixe ou responsive */
+
+}
+
+#jj img, #jh img, #jk img {
+  width: 150%;
+  height: 150%;
+  height: auto;
+  border-radius: 15px;
+}
+
+#jh h1{
+  font-size: medium;
+}
+#jj h1{
+  font-size: medium;
+}
+#jk h1{
+  font-size: medium;
+}
+#size h1{
+  margin-bottom: 10%;
+}
+
+h1, h2 {
+  margin: 5px 0;
+  
+}
+
+#tt button {
+  background-color: blue; /* couleur de base */
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#tt button:hover {
+  background-color: yellow; /* couleur au survol */
+}
+
+#gg{
+  text-align: center;
+}
+#pic{
+
+  display: flex;
+  gap: 25px;
+}
+#ok img,#kk img, #ff img{
+  
+  width: 150%;
+  height: auto;
+  border-radius: 15px;
+
+}
+
+#kk h1{
+  font-size: medium;
+}
+#ok h1{
+  font-size: medium;
+}
+#ff h1{
+  font-size: medium;
+}
+
+#pic img {
+  width: 280px;
+  height: 280px;
+  border-radius: 10px;
+  margin: 4px;
+}
+
+#kk, #ok, #ff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px; /* largeur fixe ou responsive */
+}
+
+#pic button {
+  background-color: #f0f0f0; /* couleur de base */
+  color: black;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#pic button:hover {
+  background-color: yellow; /* couleur au survol */
+}
+
+#droite {
+  margin-right: 40px; /* Ajuste selon ton besoin */
+}
+
+#whats{
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+#whats img{
+  width: 30px;
+  height: 30px;
+}
+#Instagram{
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#Instagram img{
+  width: 30px;
+  height: 30px;
+}
+#mail{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+#mail img{
+  width: 30px;
+  height: 30px; 
+}
+
+#page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10%;
+  cursor: pointer;
+}
+#page img{
+  width: 30px;
+  height: 30px; 
+}
+#page h2{
+  display: flex;
+  align-items: center;       /* centre verticalement */
+  justify-content: center;   /* centre horizontalement */
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+#page h1{
+  display: flex;
+  align-items: center;       /* centre verticalement */
+  justify-content: center;   /* centre horizontalement */
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+#page h3{
+  display: flex;
+  align-items: center;       /* centre verticalement */
+  justify-content: center;   /* centre horizontalement */
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
