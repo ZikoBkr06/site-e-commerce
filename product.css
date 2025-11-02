@@ -1,0 +1,299 @@
+
+
+.img1{
+    height: 30px;
+    width: 40px;
+    margin-left: 5px;
+}
+.partiegauche h1{
+  
+    color: #1a3bb3;
+    font-family: unset;
+    cursor: pointer;
+}
+.partiegauche{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.partiecentre{
+    color: blue;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.partie1{
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+  padding: 10px 30px;
+  margin-left: -140px;
+}
+
+
+
+
+
+
+
+.b1 {
+    color: #1a3bb3; 
+    background-color: white; 
+    border: 2px solid #f8d900;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 6px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+ 
+  .b1:hover {
+    background-color: #f8d900; 
+    color: white; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset et styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Conteneur principal */
+.div1 {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    
+}
+
+/* Section image produit */
+.div1gauche {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.div1gauche img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Section détails produit */
+.div1droite {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Nouvelle arrivée */
+.div1droite p:first-child {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #e74c3c;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+/* Titre produit */
+.div1droite h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Description produit */
+.div1droite p:nth-of-type(2) {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+
+
+
+
+
+
+
+
+/* Bouton d'ajout au panier */
+.checkout-section {
+  /* Ajoutez un peu d'espace au-dessus du bouton */
+  margin-top: 25px;
+  /* Centrer le bouton si la section est plus large que le bouton */
+  display: flex;
+  justify-content: center; 
+  
+}
+
+.checkout-button {
+  /* Couleurs */
+  background-color: #0B1446; /* Bleu marine foncé pour le fond */
+  color: #DCE814; /* Jaune vif pour le texte */
+
+  /* Mise en forme du texte et du bouton */
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px 30px; /* Espace intérieur (hauteur et largeur) */
+  border: none;
+  border-radius: 5px; /* Coins légèrement arrondis */
+  cursor: pointer;
+  width: 100%; /* S'étend sur toute la largeur de son conteneur */
+  max-width: 350px; /* Limite la largeur maximale */
+  
+  /* Ombre pour le relief */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  
+  /* Transition pour un effet doux au survol */
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Effet au survol (hover) */
+.checkout-button:hover {
+  background-color: #1a2a6b; /* Un bleu marine légèrement plus clair */
+  transform: translateY(-2px); /* Léger mouvement vers le haut */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Effet au clic (active) */
+.checkout-button:active {
+  transform: translateY(0); /* Retour à la position initiale */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.size-selector, .color-selector {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sizes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.size {
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+
+.colors {
+  display: flex;
+  gap: 10px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.color.selected {
+  outline: 3px solid #0077cc;
+}
+
+.charity-impact {
+  margin-top: 25px;
+  background-color: #e6f7ff;
+  border-left: 4px solid #0077cc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.charity-impact h4 {
+  margin: 0 0 8px;
+  color: #0077cc;
+}
+
+.charity-impact p {
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+}
+
+
+
+.product-details {
+  max-width: 600px;
+  margin-left: 160px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #0077cc;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+}
+
+.product-details h3 {
+  margin-bottom: 10px;
+  color: #0077cc;
+  font-size: 20px;
+}
+
+.product-details p {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.product-details ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.product-details li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #444;
+}
