@@ -1,12 +1,8 @@
-
-
 .img1{
-    height: 30px;
+    height: 32px;
     width: 40px;
-    margin-left: 5px;
 }
 .partiegauche h1{
-  
     color: #1a3bb3;
     font-family: unset;
     cursor: pointer;
@@ -30,13 +26,6 @@
   padding: 10px 30px;
   margin-left: -140px;
 }
-
-
-
-
-
-
-
 .b1 {
     color: #1a3bb3; 
     background-color: white; 
@@ -51,22 +40,8 @@
  
   .b1:hover {
     background-color: #f8d900; 
-    color: white; 
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    color: white; 
+  }
 
 
 
@@ -156,9 +131,8 @@ body {
 
 /* Bouton d'ajout au panier */
 .checkout-section {
-  /* Ajoutez un peu d'espace au-dessus du bouton */
+  
   margin-top: 25px;
-  /* Centrer le bouton si la section est plus large que le bouton */
   display: flex;
   justify-content: center; 
   
@@ -166,39 +140,33 @@ body {
 
 .checkout-button {
   /* Couleurs */
-  background-color: #0B1446; /* Bleu marine foncé pour le fond */
-  color: #DCE814; /* Jaune vif pour le texte */
+  background-color: #0B1446; 
+  color: #DCE814; 
 
-  /* Mise en forme du texte et du bouton */
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 15px 30px; /* Espace intérieur (hauteur et largeur) */
+  padding: 15px 30px;
   border: none;
-  border-radius: 5px; /* Coins légèrement arrondis */
+  border-radius: 5px; 
   cursor: pointer;
-  width: 100%; /* S'étend sur toute la largeur de son conteneur */
-  max-width: 350px; /* Limite la largeur maximale */
+  width: 100%; 
+  max-width: 350px; 
   
-  /* Ombre pour le relief */
+
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   
-  /* Transition pour un effet doux au survol */
+ 
   transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
-/* Effet au survol (hover) */
+
 .checkout-button:hover {
-  background-color: #1a2a6b; /* Un bleu marine légèrement plus clair */
-  transform: translateY(-2px); /* Léger mouvement vers le haut */
+  background-color: #1a2a6b; 
+  transform: translateY(-2px); 
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Effet au clic (active) */
-.checkout-button:active {
-  transform: translateY(0); /* Retour à la position initiale */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
 
 
 .size-selector, .color-selector {
