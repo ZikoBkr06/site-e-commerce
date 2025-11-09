@@ -291,23 +291,7 @@
   </script>
 
 
-<script>
-  // Fonction pour ajouter un produit au panier
-  function addToCart(productName) {
-    const cart = JSON.parse(localStorage.getItem('cart')) || [];
-    cart.push({ name: productName, quantity: 1 });
-    localStorage.setItem('cart', JSON.stringify(cart));
-    alert(productName + " a été ajouté au panier !");
-  }
 
-  // Écoute les clics sur tous les boutons "Acheter maintenant"
-  document.querySelectorAll('.checkout-button').forEach(button => {
-    button.addEventListener('click', () => {
-      const productName = button.getAttribute('data-product');
-      addToCart(productName);
-    });
-  });
-</script>
 
 
 
